@@ -15,6 +15,9 @@
         echo 'A multiplicação vale '. $n1 * $n2.'<br>';
         echo 'A divisão vale '. $n1 / $n2.'<br>';
         echo 'A modulo vale '. $n1 % $n2.'<br>';
+
+        $m = ($n1 + $n2) / 2;
+        echo 'A média vale '. $m.'<br>';
     ?>
 </body>
 </html>
