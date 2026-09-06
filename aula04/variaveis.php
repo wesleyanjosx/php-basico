@@ -12,6 +12,11 @@
         echo $number.'<br>';
         $number = 4.5;
         echo $number.'<br>';
+
+        $age = 29;
+        $name = 'Wesley Anjos';
+        echo "$name tem $age de idade!<br>";
+        echo $name. ' tem ' .$age. ' de idade!<br>';
     ?>
 </body>
 </html>
