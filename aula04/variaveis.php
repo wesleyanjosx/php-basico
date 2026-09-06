@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 04 PHP</title>
 </head>
 <body>
     <?php
-        $age = 30;
-        $money = 1420;
-        $name = 'Wesley Anjos';
-        echo $age.'<br>';
-        echo number_format($money, 2, ',', '.').'<br>';
-        echo $name.'<br>';
+        $number = 4;
+        $name = (string) 'Wesley Anjos';
+        echo $number.'<br>';
+        $number = 4.5;
+        echo $number.'<br>';
     ?>
 </body>
 </html>
