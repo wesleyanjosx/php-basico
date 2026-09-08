@@ -10,8 +10,9 @@
         $price = $_GET['p'];
         echo 'O preço do produto é R$'. number_format($price, 2, ',', '.'). '<br>';
 
-        $price = $price + ($price * 10 / 100);
-        echo 'O novo preço com 10% de aumento é R$'. number_format($price, 2, ',', '.');
+        // $price = $price + ($price * 10 / 100);
+        $price -= $price * 10 / 100;
+        echo 'O novo preço com 10% de desconto é R$'. number_format($price, 2, ',', '.');
     ?>
 </body>
 </html>
